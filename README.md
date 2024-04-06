@@ -2,6 +2,8 @@
 
 This project provides a simple utility for collecting all instances of your Python classes. It offers easy integration into your projects with a decorator.
 
+Note: All instances of your classes decorated using InstanceCollector are stored in RAM until the program exits. Use this utility wisely to avoid memory leaks.
+
 ## Features
 
 - Collecting instances using a decorator.
